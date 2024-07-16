@@ -93,8 +93,6 @@ section {
   color: #fbfbfb;
   text-align: center;
   font-size: 1.05rem;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 #projekty {
@@ -116,7 +114,7 @@ section {
 
 .project-item {
   margin: 20px;
-  width: calc(36.333% - 40px);
+  width: calc(33.333% - 40px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   overflow: hidden;
