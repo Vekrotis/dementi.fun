@@ -167,6 +167,31 @@ section {
   text-align: center;
 }
 
+#dovednosti {
+  background: #0a0a0a;
+  color: #fbfbfb;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-item {
+  margin: 20px;
+  padding: 20px;
+  background: #1c1c1c;
+  border-radius: 8px;
+  width: calc(33.333% - 40px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-item h3 {
+  margin-top: 0;
+}
+
 .scroll-to-top {
   position: fixed;
   bottom: 20px;
@@ -232,10 +257,18 @@ section {
   .project-item {
     width: calc(50% - 40px);
   }
+
+  .skill-item {
+    width: calc(50% - 40px);
+  }
 }
 
 @media (max-width: 480px) {
   .project-item {
+    width: calc(100% - 40px);
+  }
+
+  .skill-item {
     width: calc(100% - 40px);
   }
 }
